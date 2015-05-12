@@ -6,4 +6,4 @@ Homebrew formulae for some of the stuff I use.
 
 To track the formulae in this GitHub repository:
 
-    brew tap taavitani/formulae
+    brew tap taavitani/6.828-tools
