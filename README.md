@@ -6,4 +6,4 @@ Homebrew formulae for tools used in MIT 6.828.
 
 To track the formulae in this GitHub repository:
 
-    brew tap taavitani/6.828-tools
+    brew tap taavitani/6-828-tools
