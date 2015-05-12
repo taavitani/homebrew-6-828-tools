@@ -1,4 +1,4 @@
-# homebrew-formulae
+# 6.828-tools
 
 Homebrew formulae for tools used in MIT 6.828.
 
