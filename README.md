@@ -1,6 +1,6 @@
 # homebrew-formulae
 
-Homebrew formulae for some of the stuff I use.
+Homebrew formulae for tools used in MIT 6.828.
 
 ## Usage
 
