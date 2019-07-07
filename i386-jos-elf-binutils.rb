@@ -1,10 +1,11 @@
 class I386JosElfBinutils < Formula
   homepage "http://pdos.csail.mit.edu/6.828/2014/tools.html"
-  url "http://ftpmirror.gnu.org/binutils/binutils-2.21.1.tar.bz2"
-  sha256 "cdecfa69f02aa7b05fbcdf678e33137151f361313b2f3e48aba925f64eabf654"
+  url "http://ftpmirror.gnu.org/binutils/binutils-2.32.tar.xz"
+  sha256 "0ab6c55dd86a92ed561972ba15b9b70a8b9f75557f896446c82e8b36e473ee04"
 
   def install
     system "./configure", "--target=i386-jos-elf",
+                          "--disable-multilib",
                           "--disable-werror",
                           "--disable-nls",
                           "--prefix=#{prefix}"
